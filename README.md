@@ -1,7 +1,7 @@
 # ssas-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for SQL Server Analysis Services
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for SQL Server Analysis Services (beta)](https://www.cdata.com/download/download.aspx?sku=FYZK-V&type=beta). 
+:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for SQL Server Analysis Services (beta)](https://www.cdata.com/download/download.aspx?sku=FYZK-V&type=beta). 
 ## Purpose
 We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data SQL Server Analysis Services supported by the [CData JDBC Driver for SQL Server Analysis Services](https://www.cdata.com/drivers/ssas/jdbc).
 
