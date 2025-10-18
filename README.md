@@ -1,9 +1,9 @@
 # ssas-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for SQL Server Analysis Services
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for SQL Server Analysis Services (beta)](https://www.cdata.com/download/download.aspx?sku=FYZM-V&type=beta). 
+:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for SQL Server Analysis Services](https://www.cdata.com/drivers/ssas/download/mcp/). 
 ## Purpose
-We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data SQL Server Analysis Services supported by the [CData JDBC Driver for SQL Server Analysis Services](https://www.cdata.com/drivers/ssas/jdbc).
+We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data SQL Server Analysis Services supported by the [CData JDBC Driver for SQL Server Analysis Services](https://www.cdata.com/drivers/ssas/jdbc/).
 
 CData JDBC Driver connects to SQL Server Analysis Services by exposing them as relational SQL models.
 
@@ -20,7 +20,7 @@ This server wraps that driver and makes SQL Server Analysis Services data availa
       mvn clean install
       ``` 
       This creates the JAR file: CDataMCP-jar-with-dependencies.jar
-2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/ssas/download/jdbc](https://www.cdata.com/drivers/ssas/download/jdbc)
+2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/ssas/download/jdbc](https://www.cdata.com/drivers/ssas/download/jdbc/)
 3. License the CData JDBC Driver:
     * Navigate to the `lib` folder in the installation directory, typically:
         * (Windows) `C:\Program Files\CData\CData JDBC Driver for SQL Server Analysis Services\`
